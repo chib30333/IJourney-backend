@@ -1,0 +1,19 @@
+# Node
+node_modules/
+npm-debug.log
+
+# Environment files
+.env
+*.env
+
+# Firebase Admin Key
+serviceAccountKey.json
+src/serviceAccountKey.json
+
+# Logs
+logs
+*.log
+
+# Build artifacts
+dist/
+build/
