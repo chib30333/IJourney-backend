@@ -1,4 +1,4 @@
-import { admin, db } from '../config/firebaseConfig.js';
+import { admin, db } from '../config/firebaseAdmin.js';
 
 export const registerUser = async (req, res) => {
     const { email, password, name, role = 'user' } = req.body;
