@@ -7,8 +7,8 @@ npm-debug.log
 *.env
 
 # Firebase Admin Key
-serviceAccountKey.json
 src/serviceAccountKey.json
+serviceAccountKey.json
 
 # Logs
 logs
