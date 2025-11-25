@@ -2,7 +2,7 @@
   "name": "ijourney-backend",
   "version": "1.0.0",
   "description": "Backend API for the iJourney: A Path to Purpose interactive learning platform using Node.js, Express, Firebase, and Google Vertex AI.",
-  "main": "server.js",
+  "main": "src/server.js",
   "type": "module",
   "scripts": {
     "dev": "nodemon src/server.js",
