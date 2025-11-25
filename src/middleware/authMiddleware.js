@@ -1,4 +1,4 @@
-import { admin } from "../config/firebaseConfig.js";
+import { admin } from "../config/firebaseAdmin.js";
 
 export const verifyAdminRole = (req, res, next) => {
     const { role } = req.user;
