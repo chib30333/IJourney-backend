@@ -17,6 +17,9 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+app.get('/', (req, res) => {
+  res.send('iJourney backend is running ✅. Use /api/... endpoints.');
+});
 app.use('/api/auth', authRoutes);
 app.use('/api/user', verifyFirebaseToken, userRoutes);
 app.use('/api/admin', verifyFirebaseToken, verifyAdminRole, adminRoutes);
