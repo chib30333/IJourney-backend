@@ -37,6 +37,7 @@
     "firebase": "^12.4.0",
     "firebase-admin": "^13.5.0",
     "http": "^0.0.1-security",
+    "pdfkit": "^0.17.2",
     "winston": "^3.18.3"
   },
   "devDependencies": {
